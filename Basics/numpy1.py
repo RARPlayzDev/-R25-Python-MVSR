@@ -1,0 +1,10 @@
+import numpy as np
+a=np.arange(48).reshape(6,8)
+print(a)
+print(a.ndim)
+print(a.shape)
+print(a[1,2])
+print(a[-1,-1])
+print(a[:4,:])
+print(a[:,:2])
+print(a[1:3,2:4])

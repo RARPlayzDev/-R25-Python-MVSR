@@ -1,0 +1,5 @@
+numbers = list(map(int, input("Enter numbers (space-separated): ").split()))
+t=int(input("Enter number to search:-"))
+count=numbers.count(t)
+print(f"{t} occusrs {count} times")
+print()

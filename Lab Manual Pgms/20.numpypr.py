@@ -1,0 +1,10 @@
+import numpy as np 
+arr=np.array([[1,2,3],[3,4,5]]) 
+num=np.reshape(arr,-1) 
+print(num) 
+s=sum(num) 
+print("Sum of all elements of an array",s) 
+print("Sum of all column elements") 
+print(np.sum(arr,axis=0)) 
+print("Sum of all Row elements") 
+print(np.sum(arr,axis=1)) 

@@ -1,0 +1,10 @@
+'''n = int(input().strip())
+
+if n % 2 == 0:
+    print(n // 2)
+else:
+    print(-(n + 1) // 2)'''
+
+
+r=lambda x:x**2
+print(r(2))
